@@ -1,4 +1,4 @@
-import stock from "../../dummyData/stock";
+//import stock from "../../dummyData/stock";
 
 const state = {
     funds: 10000,

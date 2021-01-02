@@ -1,5 +1,5 @@
 import Vue from 'vue'
-//import stock from '../dummyData/stock';
+// import stock from '../dummyData/stock';
 
 export const loadData = ({commit}) => {
     Vue.http.get('myData.json')
