@@ -1,5 +1,5 @@
-@import '~bootstrap';   
+$theme-colors: (
+  "info": #41b883
+);
 
-h1 {
-    color: maroon
-}
+@import '~bootstrap';   
