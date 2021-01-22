@@ -11,7 +11,7 @@ Vue.use(VueRouter);
 Vue.use(VueResource);
 
 // Vue.http.options.root = 'https://vuejs-stock-trader-fa384.firebaseio.com/';
-Vue.http.options.root = 'http://imi24.com/api';
+Vue.http.options.root = 'https://imi24.com/api';
 
 Vue.filter('currency', (value) => {
   return '$' + value.toLocaleString();
